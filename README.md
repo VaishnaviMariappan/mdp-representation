@@ -19,7 +19,7 @@ The start state is a school bus departing from a school carrying children, and t
 3
 
 ### Action Space
-* {0) Moving Right
+* {0} Moving Right
 * {1} Moving Down
 * {2} Moving Left
 * {3} Moving Up
@@ -39,65 +39,66 @@ The start state is a school bus departing from a school carrying children, and t
 ```python
 P = {
     0 : {
-        0 : [(1.0, 0, 0.0, False)],
-        1 : [(1.0, 2, 0.0, False)],
-        2 : [(1.0, 0, 0.0, False)],
-        3 : [(1.0, 0, 0.0, False)]
+        0 : [(0.12, 0, 0.0, False)],
+        1 : [(0.87, 2, 0.0, False)],
+        2 : [(0.23, 0, 0.0, False)],
+        3 : [(0.23, 0, 0.0, False)]
     },
-    
+
     1 : {
-        0 : [(1.0, 2, 0.0, False)],
-        1 : [(1.0, 4, 0.0, False)],
-        2 : [(1.0, 1, 0.0, False)],
-        3 : [(1.0, 1, 0.0, False)]
+        0 : [(0.45, 2, 0.0, False)],
+        1 : [(0.87, 4, 0.0, False)],
+        2 : [(0.23, 1, 0.0, False)],
+        3 : [(0.23, 1, 0.0, False)]
     },
 
     2 : {
-        0 : [(1.0, 3, 0.0, False)],
-        1 : [(1.0, 5, 0.0, False)],
-        2 : [(1.0, 1, 0.0, False)],
-        3 : [(1.0, 0, 0.0, False)]
+        0 : [(0.67, 3, 0.0, False)],
+        1 : [(0.98, 5, 0.0, False)],
+        2 : [(0.67, 1, 0.0, False)],
+        3 : [(0.34, 0, 0.0, False)]
     },
 
     3 : {
-        0 : [(1.0, 3, 0.0, False)],
-        1 : [(1.0, 6, 0.0, False)],
-        2 : [(1.0, 2, 0.0, False)],
-        3 : [(1.0, 3, 0.0, False)]
+        0 : [(0.23, 3, 0.0, False)],
+        1 : [(0.98, 6, 0.0, False)],
+        2 : [(0.76, 2, 0.0, False)],
+        3 : [(0.12, 3, 0.0, False)]
     },
 
     4 : {
-        0 : [(1.0, 5, 0.0, False)],
-        1 : [(1.0, 4, 0.0, False)],
-        2 : [(1.0, 4, 0.0, False)],
-        3 : [(1.0, 1, 0.0, False)]
+        0 : [(0.76, 5, 0.0, False)],
+        1 : [(0.11, 4, 0.0, False)],
+        2 : [(0.11, 4, 0.0, False)],
+        3 : [(0.32, 1, 0.0, False)]
     },
 
     5 : {
-        0 : [(1.0, 6, 0.0, False)],
-        1 : [(1.0, 7, 1.0, True)],
-        2 : [(1.0, 4, 0.0, False)],
-        3 : [(1.0, 2, 0.0, False)]
+        0 : [(0.65, 6, 0.0, False)],
+        1 : [(0.99, 7, 1.0, True)],
+        2 : [(0.65, 4, 0.0, False)],
+        3 : [(0.34, 2, 0.0, False)]
     },
 
     6 : {
-        0 : [(1.0, 6, 0.0, False)],
-        1 : [(1.0, 6, 0.0, False)],
-        2 : [(1.0, 5, 0.0, False)],
-        3 : [(1.0, 3, 0.0, False)]
+        0 : [(0.11, 6, 0.0, False)],
+        1 : [(0.11, 6, 0.0, False)],
+        2 : [(0.87, 5, 0.0, False)],
+        3 : [(0.66, 3, 0.0, False)]
     },
 
     7 : {
-        0 : [(1.0, 7, 1.0, True)],
-        1 : [(1.0, 7, 1.0, True)],
-        2 : [(1.0, 7, 1.0, True)],
-        3 : [(1.0, 7, 1.0, True)]
+        0 : [(0.98, 7, 1.0, True)],
+        1 : [(0.65, 7, 1.0, True)],
+        2 : [(0.89, 7, 1.0, True)],
+        3 : [(0.88, 7, 1.0, True)]
     },
 }
 ```
 
 ## OUTPUT:
-![image](https://github.com/VaishnaviMariappan/mdp-representation/assets/94169913/d3e2533d-52f3-4d40-ad66-7f982af55ff9)
+![image](https://github.com/VaishnaviMariappan/mdp-representation/assets/94169913/4a5995e9-780c-4e9b-88f8-1cb2983df8e1)
+
 
 
 ## RESULT:
